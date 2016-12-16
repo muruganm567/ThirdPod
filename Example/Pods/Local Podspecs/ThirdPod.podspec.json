@@ -1,0 +1,26 @@
+{
+  "name": "ThirdPod",
+  "version": "0.1.0",
+  "summary": "A short description of ThirdPod.",
+  "homepage": "https://github.com/muruganm567/ThirdPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ramel Rana": "ramel.rana@thermofisher.com"
+  },
+  "source": {
+    "git": "https://github.com/muruganm567/ThirdPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ThirdPod/Classes/**/*",
+  "resource_bundles": {
+    "ThirdPod": [
+      "ThirdPod/Assets/*.png"
+    ]
+  }
+}

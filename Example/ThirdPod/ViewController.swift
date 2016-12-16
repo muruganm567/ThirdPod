@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import ThirdPod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let pick = pickyTesterPod()
+        pick.pickTestLog()
+        //let pick = pickyTesterPod()
         // Do any additional setup after loading the view, typically from a nib.
+        //let pick = pickyTesterPod()
+        
     }
 
     override func didReceiveMemoryWarning() {

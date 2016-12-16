@@ -1,0 +1,6 @@
+framework module ThirdPod {
+  umbrella header "ThirdPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
